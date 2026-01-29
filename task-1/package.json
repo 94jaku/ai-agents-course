@@ -1,0 +1,13 @@
+{
+  "name": "task-1",
+  "type": "module",
+  "scripts": {
+    "start": "tsx index.ts"
+  },
+  "dependencies": {
+    "openai": "^4"
+  },
+  "devDependencies": {
+    "tsx": "^4"
+  }
+}
