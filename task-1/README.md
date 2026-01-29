@@ -4,7 +4,7 @@ Simple script that calls OpenAI with a calculator tool.
 
 ## Setup
 
-1. Copy `.env.example` to `.env` and add your API key
+1. Setup `.env` in repo root (see main README)
 2. Run `make install`
 
 ## Run
@@ -12,4 +12,3 @@ Simple script that calls OpenAI with a calculator tool.
 ```bash
 make run
 ```
-
