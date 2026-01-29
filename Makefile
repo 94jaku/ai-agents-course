@@ -1,4 +1,5 @@
-FORCE:
+node_modules:
+	npm install
 
-task-%: FORCE
+task-%: node_modules
 	$(MAKE) -C $@ run
