@@ -25,6 +25,7 @@ function calculate(expression: string): number {
 
 async function main() {
   const messages: OpenAI.ChatCompletionMessageParam[] = [
+    { role: "system", content: "Reply in plain text, no LaTeX or markdown." },
     { role: "user", content: "What is 25 * 4 + 10?" },
   ];
 

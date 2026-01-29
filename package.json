@@ -1,9 +1,7 @@
 {
-  "name": "task-1",
+  "name": "ai-agents-course",
   "type": "module",
-  "scripts": {
-    "start": "tsx index.ts"
-  },
+  "private": true,
   "dependencies": {
     "openai": "^4"
   },
