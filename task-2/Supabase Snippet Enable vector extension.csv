@@ -1,0 +1,10 @@
+table_name,column_name,data_type,is_nullable
+ccg_enemy_cards,id,bigint,NO
+ccg_enemy_cards,created_at,timestamp with time zone,NO
+ccg_enemy_cards,description,text,YES
+ccg_enemy_cards,character,text,YES
+ccg_enemy_cards,layout,text,YES
+ccg_enemy_cards,ccg_enemy_cards_file_name,text,YES
+ccg_enemy_cards,content,text,YES
+ccg_enemy_cards,embedding,USER-DEFINED,YES
+ccg_enemy_cards,metadata,jsonb,YES
